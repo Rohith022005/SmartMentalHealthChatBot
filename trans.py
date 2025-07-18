@@ -13,7 +13,7 @@ from sentence_transformers import SentenceTransformer
 # groq_api_key = os.getenv("GROQ_API_KEY")
 
 # Initialize LLM
-llm = ChatGroq(model="Gemma2-9b-It", groq_api_key="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")
+llm = ChatGroq(model="Gemma2-9b-It", groq_api_key="")
 parser = StrOutputParser()
 
 # Load predefined intents
